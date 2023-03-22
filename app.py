@@ -13,18 +13,7 @@ import numpy as np
 model=pickle.load(open('model','rb' ))
 
 st.title('Consignment Price Prediction')
-# Add background image
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://commons.wikimedia.org/wiki/File:Sunflower_from_Silesia2.jpg");
-background-size: cover;
-}
-</style>
-'''
 
-# Render the HTML code
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 country=st.selectbox('country', sorted(('Vietnam', 'Congo, DRC', 'South Sudan', 'South Africa', 'Rwanda',
