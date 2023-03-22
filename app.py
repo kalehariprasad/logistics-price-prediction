@@ -17,7 +17,7 @@ st.title('Consignment Price Prediction')
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://your-image-url.com");
+background-image: url("https://commons.wikimedia.org/wiki/File:Sunflower_from_Silesia2.jpg");
 background-size: cover;
 }
 </style>
